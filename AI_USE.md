@@ -9,7 +9,7 @@
 | **Whisper (local model)** | Offline speech‑to‑text transcription of audio inputs (up to 10 min). Integrated via the `whisper` Python package. | No external API key required. |
 | **gTTS (Google Text‑to‑Speech)** | Generates spoken audio from the script when a language is supported. Used as the default TTS engine. | Fallback to ElevenLabs is optional. |
 | **Sentence‑Transformers (`all‑MiniLM‑L6‑v2`)** | Provides semantic embeddings for the relevance‑scoring model in `semantic_matcher.py`. | Lazy‑loaded; fallback to TF‑IDF if the package is missing. |
-| **Pexels API** | Supplies royalty‑free video clips for the B‑roll generation. Integrated via `backend/app/providers/pexels.py`. | API key stored in `.env`. |
+| **Pixabay API** | Supplies royalty‑free video clips for the B‑roll generation. Integrated via `backend/app/providers/pixabay.py`. | API key stored in `.env`. |
 | **Git & GitHub** | Version control and remote hosting of the repository. Used for committing the changes and pushing them to the remote repo. |
 | **Docker (optional)** | The `docker-compose.yml` file is present for local development, but the primary workflow runs on Vercel. |
 | **FFmpeg** | Stitching audio, video, and adding overlays during the rendering stage. |
