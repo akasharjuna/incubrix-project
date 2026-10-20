@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Artifacts and temp files
+artifacts/jobs/
+temp/
+*.mp4
+*.mp3
+*.wav
+*.srt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+*.log
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Secrets
+*.pem
+*.key

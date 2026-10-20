@@ -1,0 +1,72 @@
+{
+  "job_id": "9ed75659-6a57-4a7c-a1c4-6ed0fd6b78b6",
+  "generated_at": "2026-10-19T17:47:07.498751Z",
+  "input_mode": "script",
+  "aspect_ratios": [
+    "16:9"
+  ],
+  "total_duration": 1.286,
+  "scenes": [
+    {
+      "scene_id": "scene-001",
+      "text": "Testing status polling.",
+      "visual_hint": null,
+      "start": 0.0,
+      "end": 1.286,
+      "duration": 1.286,
+      "relevance_score": 0.1322,
+      "selection_reason": "Semantic similarity=0.00, hint_alignment=0.00, duration_fit=0.32, aspect_ratio_fit=1.00 \u2192 composite=0.13",
+      "search_queries": [
+        "testing status polling"
+      ],
+      "fallback_used": true,
+      "fallback_reason": "Score 0.13 below threshold 0.2",
+      "recovery_attempts": [
+        "Top score 0.13 below threshold 0.2; trying fallback query."
+      ],
+      "clip": {
+        "asset_id": "mock-003",
+        "provider": "mock",
+        "source_url": "https://mock.provider/clips/003",
+        "download_url": "https://mock.provider/download/003.mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 10.0,
+        "thumbnail_url": "https://mock.provider/thumb/003.jpg",
+        "license": {
+          "name": "CC0 / Mock License",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "commercial_use": true,
+          "attribution_required": false
+        },
+        "ai_generated": false
+      },
+      "alternatives": [
+        {
+          "asset_id": "mock-002",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/002",
+          "thumbnail_url": "https://mock.provider/thumb/002.jpg",
+          "duration": 12.0,
+          "license": "CC0 / Mock License"
+        },
+        {
+          "asset_id": "mock-010",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/010",
+          "thumbnail_url": "https://mock.provider/thumb/010.jpg",
+          "duration": 13.0,
+          "license": "CC0 / Mock License"
+        },
+        {
+          "asset_id": "mock-006",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/006",
+          "thumbnail_url": "https://mock.provider/thumb/006.jpg",
+          "duration": 14.0,
+          "license": "CC0 / Mock License"
+        }
+      ]
+    }
+  ]
+}

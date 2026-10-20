@@ -1,0 +1,49 @@
+{
+  "job_id": "09a25904-7b91-47b5-b980-8cded41e6b12",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-19T17:52:14.625156Z",
+  "status": "processing",
+  "input": {
+    "mode": "script",
+    "script_preview": "Solar energy is transforming homes. Panels reduce electricity costs.",
+    "audio_url": null,
+    "audio_filename": null,
+    "scenes_count": 0,
+    "aspect_ratios_requested": [
+      "16:9"
+    ],
+    "captions_enabled": true,
+    "burn_in_captions": true,
+    "avoid_list": []
+  },
+  "outputs": {
+    "video_16_9": null,
+    "video_9_16": null,
+    "video_1_1": null,
+    "captions_srt": null,
+    "timeline_json": "timeline.json",
+    "manifest_json": "manifest.json"
+  },
+  "processing": {
+    "tts_provider": "gtts",
+    "stt_provider": "whisper",
+    "footage_provider": "mock",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "render_preset": "development",
+    "min_relevance_threshold": 0.2
+  },
+  "statistics": {
+    "total_scenes": 1,
+    "total_duration": 3.857,
+    "fallbacks_used": 0,
+    "avg_relevance_score": 0.3971
+  },
+  "warnings": [
+    "Render failed for 16:9: [WinError 2] The system cannot find the file specified"
+  ],
+  "software": {
+    "name": "B-roll Video Engine",
+    "version": "1.0.0",
+    "author": "IncuBrix Assessment Submission"
+  }
+}

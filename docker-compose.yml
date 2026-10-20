@@ -1,0 +1,47 @@
+version: '3.9'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: broll-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./artifacts:/artifacts
+      - ./temp:/temp
+    environment:
+      - ARTIFACTS_DIR=/artifacts
+      - TEMP_DIR=/temp
+      - FOOTAGE_PROVIDER=${FOOTAGE_PROVIDER:-mock}
+      - PEXELS_API_KEY=${PEXELS_API_KEY:-}
+      - TTS_PROVIDER=${TTS_PROVIDER:-gtts}
+      - STT_PROVIDER=${STT_PROVIDER:-whisper}
+      - WHISPER_MODEL=${WHISPER_MODEL:-base}
+      - RENDER_PRESET=${RENDER_PRESET:-development}
+      - CORS_ORIGINS=http://localhost:80,http://localhost:5173,http://frontend
+      - DEBUG=${DEBUG:-false}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: broll-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  artifacts:
+  temp:

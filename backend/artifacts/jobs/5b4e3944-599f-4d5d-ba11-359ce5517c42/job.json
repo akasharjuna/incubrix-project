@@ -1,0 +1,46 @@
+{
+  "job_id": "5b4e3944-599f-4d5d-ba11-359ce5517c42",
+  "status": "failed",
+  "input_mode": "scenes",
+  "created_at": "2026-10-19T17:48:21.678308",
+  "updated_at": "2026-10-19T17:48:22.743998",
+  "completed_at": null,
+  "script": null,
+  "audio_url": null,
+  "audio_filename": null,
+  "scenes_input": [
+    {
+      "text": "Scene one narration.",
+      "visual_hint": "cityscape"
+    },
+    {
+      "text": "Scene two narration.",
+      "visual_hint": "nature"
+    }
+  ],
+  "aspect_ratios": [
+    "16:9"
+  ],
+  "captions_enabled": true,
+  "burn_in_captions": true,
+  "avoid_list": [],
+  "callback_url": null,
+  "progress": {
+    "stage": "validating",
+    "percent": 5,
+    "message": "Validating input...",
+    "scenes_total": 0,
+    "scenes_done": 0
+  },
+  "scenes": [],
+  "artifacts": {
+    "video_16_9": null,
+    "video_9_16": null,
+    "video_1_1": null,
+    "captions_srt": null,
+    "timeline_json": null,
+    "manifest_json": null
+  },
+  "error_message": "[WinError 2] The system cannot find the file specified",
+  "warnings": []
+}

@@ -1,0 +1,126 @@
+{
+  "job_id": "09a25904-7b91-47b5-b980-8cded41e6b12",
+  "status": "completed",
+  "input_mode": "script",
+  "created_at": "2026-10-19T17:52:12.484595",
+  "updated_at": "2026-10-19T17:52:14.626158",
+  "completed_at": "2026-10-19T17:52:14.626125",
+  "script": "Solar energy is transforming homes. Panels reduce electricity costs.",
+  "audio_url": null,
+  "audio_filename": null,
+  "scenes_input": null,
+  "aspect_ratios": [
+    "16:9"
+  ],
+  "captions_enabled": true,
+  "burn_in_captions": true,
+  "avoid_list": [],
+  "callback_url": null,
+  "progress": {
+    "stage": "done",
+    "percent": 100,
+    "message": "Video ready.",
+    "scenes_total": 1,
+    "scenes_done": 1
+  },
+  "scenes": [
+    {
+      "scene_id": "scene-001",
+      "text": "Solar energy is transforming homes. Panels reduce electricity costs.",
+      "visual_hint": null,
+      "start": 0.0,
+      "end": 3.857,
+      "clip": {
+        "asset_id": "mock-002",
+        "provider": "mock",
+        "source_url": "https://mock.provider/clips/002",
+        "download_url": "https://mock.provider/download/002.mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 12.0,
+        "license": {
+          "name": "CC0 / Mock License",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "ai_generated": false
+        },
+        "thumbnail_url": "https://mock.provider/thumb/002.jpg"
+      },
+      "relevance_score": 0.3971,
+      "selection_reason": "Semantic similarity=0.27, hint_alignment=0.27, duration_fit=0.79, aspect_ratio_fit=1.00 → composite=0.40",
+      "alternative_clips": [
+        {
+          "asset_id": "mock-002",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/002",
+          "download_url": "https://mock.provider/download/002.mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 12.0,
+          "license": {
+            "name": "CC0 / Mock License",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "ai_generated": false
+          },
+          "thumbnail_url": "https://mock.provider/thumb/002.jpg"
+        },
+        {
+          "asset_id": "mock-003",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/003",
+          "download_url": "https://mock.provider/download/003.mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 10.0,
+          "license": {
+            "name": "CC0 / Mock License",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "ai_generated": false
+          },
+          "thumbnail_url": "https://mock.provider/thumb/003.jpg"
+        },
+        {
+          "asset_id": "mock-003",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/003",
+          "download_url": "https://mock.provider/download/003.mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 10.0,
+          "license": {
+            "name": "CC0 / Mock License",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "ai_generated": false
+          },
+          "thumbnail_url": "https://mock.provider/thumb/003.jpg"
+        }
+      ],
+      "fallback_used": false,
+      "fallback_reason": null,
+      "recovery_attempts": [],
+      "search_queries": [
+        "solar energy transforming homes panels",
+        "solar energy transforming"
+      ]
+    }
+  ],
+  "artifacts": {
+    "video_16_9": null,
+    "video_9_16": null,
+    "video_1_1": null,
+    "captions_srt": "captions.srt",
+    "timeline_json": "timeline.json",
+    "manifest_json": "manifest.json"
+  },
+  "error_message": null,
+  "warnings": [
+    "Render failed for 16:9: [WinError 2] The system cannot find the file specified"
+  ]
+}

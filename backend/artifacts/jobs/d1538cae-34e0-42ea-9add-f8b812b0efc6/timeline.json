@@ -1,0 +1,71 @@
+{
+  "job_id": "d1538cae-34e0-42ea-9add-f8b812b0efc6",
+  "generated_at": "2026-10-20T06:38:41.879277Z",
+  "input_mode": "script",
+  "aspect_ratios": [
+    "16:9"
+  ],
+  "total_duration": 11.952,
+  "scenes": [
+    {
+      "scene_id": "scene-001",
+      "text": "Solar energy is transforming the way we power our homes. Millions of households are installing solar panels to reduce electricity costs and carbon footprints.",
+      "visual_hint": null,
+      "start": 0.0,
+      "end": 11.952,
+      "duration": 11.952,
+      "relevance_score": 0.296,
+      "selection_reason": "Semantic similarity=0.12, hint_alignment=0.12, duration_fit=1.00, aspect_ratio_fit=1.00 \u2192 composite=0.30",
+      "search_queries": [
+        "solar energy transforming way power",
+        "solar energy transforming"
+      ],
+      "fallback_used": false,
+      "fallback_reason": null,
+      "recovery_attempts": [],
+      "clip": {
+        "asset_id": "mock-002",
+        "provider": "mock",
+        "source_url": "https://mock.provider/clips/002",
+        "download_url": "https://mock.provider/download/002.mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 12.0,
+        "thumbnail_url": "https://mock.provider/thumb/002.jpg",
+        "license": {
+          "name": "CC0 / Mock License",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "commercial_use": true,
+          "attribution_required": false
+        },
+        "ai_generated": false
+      },
+      "alternatives": [
+        {
+          "asset_id": "mock-002",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/002",
+          "thumbnail_url": "https://mock.provider/thumb/002.jpg",
+          "duration": 12.0,
+          "license": "CC0 / Mock License"
+        },
+        {
+          "asset_id": "mock-010",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/010",
+          "thumbnail_url": "https://mock.provider/thumb/010.jpg",
+          "duration": 13.0,
+          "license": "CC0 / Mock License"
+        },
+        {
+          "asset_id": "mock-010",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/010",
+          "thumbnail_url": "https://mock.provider/thumb/010.jpg",
+          "duration": 13.0,
+          "license": "CC0 / Mock License"
+        }
+      ]
+    }
+  ]
+}

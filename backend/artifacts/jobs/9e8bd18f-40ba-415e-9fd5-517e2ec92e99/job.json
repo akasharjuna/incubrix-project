@@ -1,0 +1,37 @@
+{
+  "job_id": "9e8bd18f-40ba-415e-9fd5-517e2ec92e99",
+  "status": "failed",
+  "input_mode": "audio",
+  "created_at": "2026-10-19T17:47:06.976952",
+  "updated_at": "2026-10-19T17:47:06.979859",
+  "completed_at": null,
+  "script": null,
+  "audio_url": "http://192.168.1.1/audio.mp3",
+  "audio_filename": null,
+  "scenes_input": null,
+  "aspect_ratios": [
+    "16:9"
+  ],
+  "captions_enabled": true,
+  "burn_in_captions": true,
+  "avoid_list": [],
+  "callback_url": null,
+  "progress": {
+    "stage": "validating",
+    "percent": 10,
+    "message": "Downloading audio...",
+    "scenes_total": 0,
+    "scenes_done": 0
+  },
+  "scenes": [],
+  "artifacts": {
+    "video_16_9": null,
+    "video_9_16": null,
+    "video_1_1": null,
+    "captions_srt": null,
+    "timeline_json": null,
+    "manifest_json": null
+  },
+  "error_message": "URL resolves to private/internal address: 192.168.1.1",
+  "warnings": []
+}

@@ -1,0 +1,49 @@
+{
+  "job_id": "b15c84a7-de63-4bfb-b5c9-e34119f102e0",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-19T17:48:23.205439Z",
+  "status": "processing",
+  "input": {
+    "mode": "script",
+    "script_preview": "Testing status polling.",
+    "audio_url": null,
+    "audio_filename": null,
+    "scenes_count": 0,
+    "aspect_ratios_requested": [
+      "16:9"
+    ],
+    "captions_enabled": true,
+    "burn_in_captions": true,
+    "avoid_list": []
+  },
+  "outputs": {
+    "video_16_9": null,
+    "video_9_16": null,
+    "video_1_1": null,
+    "captions_srt": null,
+    "timeline_json": "timeline.json",
+    "manifest_json": "manifest.json"
+  },
+  "processing": {
+    "tts_provider": "gtts",
+    "stt_provider": "whisper",
+    "footage_provider": "mock",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "render_preset": "development",
+    "min_relevance_threshold": 0.2
+  },
+  "statistics": {
+    "total_scenes": 1,
+    "total_duration": 1.286,
+    "fallbacks_used": 1,
+    "avg_relevance_score": 0.1322
+  },
+  "warnings": [
+    "Render failed for 16:9: [WinError 2] The system cannot find the file specified"
+  ],
+  "software": {
+    "name": "B-roll Video Engine",
+    "version": "1.0.0",
+    "author": "IncuBrix Assessment Submission"
+  }
+}

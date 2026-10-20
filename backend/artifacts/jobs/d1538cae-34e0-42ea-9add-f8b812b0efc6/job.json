@@ -1,0 +1,126 @@
+{
+  "job_id": "d1538cae-34e0-42ea-9add-f8b812b0efc6",
+  "status": "completed",
+  "input_mode": "script",
+  "created_at": "2026-10-20T06:38:35.679556",
+  "updated_at": "2026-10-20T06:38:41.881437",
+  "completed_at": "2026-10-20T06:38:41.881412",
+  "script": "Solar energy is transforming the way we power our homes. Millions of households are installing solar panels to reduce electricity costs and carbon footprints.",
+  "audio_url": null,
+  "audio_filename": null,
+  "scenes_input": null,
+  "aspect_ratios": [
+    "16:9"
+  ],
+  "captions_enabled": true,
+  "burn_in_captions": true,
+  "avoid_list": [],
+  "callback_url": null,
+  "progress": {
+    "stage": "done",
+    "percent": 100,
+    "message": "Video ready.",
+    "scenes_total": 1,
+    "scenes_done": 1
+  },
+  "scenes": [
+    {
+      "scene_id": "scene-001",
+      "text": "Solar energy is transforming the way we power our homes. Millions of households are installing solar panels to reduce electricity costs and carbon footprints.",
+      "visual_hint": null,
+      "start": 0.0,
+      "end": 11.952,
+      "clip": {
+        "asset_id": "mock-002",
+        "provider": "mock",
+        "source_url": "https://mock.provider/clips/002",
+        "download_url": "https://mock.provider/download/002.mp4",
+        "width": 1920,
+        "height": 1080,
+        "duration": 12.0,
+        "license": {
+          "name": "CC0 / Mock License",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "commercial_use": true,
+          "attribution_required": false,
+          "ai_generated": false
+        },
+        "thumbnail_url": "https://mock.provider/thumb/002.jpg"
+      },
+      "relevance_score": 0.296,
+      "selection_reason": "Semantic similarity=0.12, hint_alignment=0.12, duration_fit=1.00, aspect_ratio_fit=1.00 → composite=0.30",
+      "alternative_clips": [
+        {
+          "asset_id": "mock-002",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/002",
+          "download_url": "https://mock.provider/download/002.mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 12.0,
+          "license": {
+            "name": "CC0 / Mock License",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "ai_generated": false
+          },
+          "thumbnail_url": "https://mock.provider/thumb/002.jpg"
+        },
+        {
+          "asset_id": "mock-010",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/010",
+          "download_url": "https://mock.provider/download/010.mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 13.0,
+          "license": {
+            "name": "CC0 / Mock License",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "ai_generated": false
+          },
+          "thumbnail_url": "https://mock.provider/thumb/010.jpg"
+        },
+        {
+          "asset_id": "mock-010",
+          "provider": "mock",
+          "source_url": "https://mock.provider/clips/010",
+          "download_url": "https://mock.provider/download/010.mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 13.0,
+          "license": {
+            "name": "CC0 / Mock License",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "commercial_use": true,
+            "attribution_required": false,
+            "ai_generated": false
+          },
+          "thumbnail_url": "https://mock.provider/thumb/010.jpg"
+        }
+      ],
+      "fallback_used": false,
+      "fallback_reason": null,
+      "recovery_attempts": [],
+      "search_queries": [
+        "solar energy transforming way power",
+        "solar energy transforming"
+      ]
+    }
+  ],
+  "artifacts": {
+    "video_16_9": null,
+    "video_9_16": null,
+    "video_1_1": null,
+    "captions_srt": "captions.srt",
+    "timeline_json": "timeline.json",
+    "manifest_json": "manifest.json"
+  },
+  "error_message": null,
+  "warnings": [
+    "Render failed for 16:9: Concat failed:   1.102 / 63.  1.102\r\n  libavfilter    12.  1.102 / 12.  1.102\r\n  libswscale     10.  1.102 / 10.  1.102\r\n  libswresample   7.  1.102 /  7.  1.102\r\n[in#0 @ 0000015fa8129100] Impossible to open 'temp\\d1538cae-34e0-42ea-9add-f8b812b0efc6\\temp\\d1538cae-34e0-42ea-9add-f8b812b0efc6\\seg_000.mp4'\r\n[in#0 @ 0000015fa8128e80] Error opening input: No such file or directory\r\nError opening input file temp\\d1538cae-34e0-42ea-9add-f8b812b0efc6\\concat.txt.\r\nError opening input files: No such file or directory\r\n"
+  ]
+}

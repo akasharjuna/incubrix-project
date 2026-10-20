@@ -1,0 +1,37 @@
+{
+  "job_id": "e43152d4-62bd-47ad-ab1c-92b81170672e",
+  "status": "failed",
+  "input_mode": "audio",
+  "created_at": "2026-10-19T17:47:04.877334",
+  "updated_at": "2026-10-19T17:47:05.858158",
+  "completed_at": null,
+  "script": null,
+  "audio_url": "https://example.com/audio.mp3",
+  "audio_filename": null,
+  "scenes_input": null,
+  "aspect_ratios": [
+    "16:9"
+  ],
+  "captions_enabled": true,
+  "burn_in_captions": true,
+  "avoid_list": [],
+  "callback_url": null,
+  "progress": {
+    "stage": "validating",
+    "percent": 10,
+    "message": "Downloading audio...",
+    "scenes_total": 0,
+    "scenes_done": 0
+  },
+  "scenes": [],
+  "artifacts": {
+    "video_16_9": null,
+    "video_9_16": null,
+    "video_1_1": null,
+    "captions_srt": null,
+    "timeline_json": null,
+    "manifest_json": null
+  },
+  "error_message": "Client error '404 Not Found' for url 'https://example.com/audio.mp3'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+  "warnings": []
+}
