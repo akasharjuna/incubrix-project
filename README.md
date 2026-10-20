@@ -62,6 +62,12 @@ Frontend: http://localhost:5173
 Backend: http://localhost:8000
 
 ---
+## Deployed Links
+
+- **Production site**: https://incubrix-project-fqkyso1yv-akasharjun0597-4008s-projects.vercel.app
+- **Health‑check endpoint**: https://incubrix-project-fqkyso1yv-akasharjun0597-4008s-projects.vercel.app/api/v1/broll/health
+- **Vercel project dashboard**: https://vercel.com/akasharjun0597-4008s-projects/incubrix-project
+---
 
 ## Architecture
 

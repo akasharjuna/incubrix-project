@@ -1,7 +1,8 @@
 /**
  * API service — all backend calls go through this module.
  */
-const API_BASE = '/api/v1/broll'
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || '';
+const API_BASE = `${BACKEND_URL}/api/v1/broll`;
 
 async function request(method, path, body = null, isFormData = false) {
   const opts = {
@@ -39,5 +40,5 @@ export const api = {
   artifactUrl: (jobId, filename) => `${API_BASE}/jobs/${jobId}/artifacts/${filename}`,
 
   // Health
-  health: () => fetch('/health').then(r => r.json()),
+  health: () => fetch(`${window.location.origin}${API_BASE}/health`).then(r => r.json()),
 }
